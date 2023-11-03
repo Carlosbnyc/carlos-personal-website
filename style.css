@@ -1,3 +1,65 @@
 body {
-    background: blue;
+    background: teal;
+    
   }
+
+header {
+display:flex;
+}
+
+.intro
+ {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    align-items: center; 
+    margin-right: auto;
+    margin-left:auto;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;  
+}
+
+.portrait {
+    display:flex;
+    max-width: 200px;
+    max-height:300px;;
+    margin-left:auto; 
+    margin-right:auto;
+    border: 8px solid #555;
+}
+
+.Benji-Nick {
+     font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center; 
+    max-width: 700px;
+    border: 3px solid navy;
+    margin-right:auto;
+    margin-left:auto;
+ }
+
+ .picture-section {
+
+    display:flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    justify-content: center;
+    margin-left:auto;
+
+ }
+ .images {
+    max-width: 300px;
+    max-height: 400px;
+    margin-left: 20px;
+    margin-right:20px;
+    border: 8px solid #555;
+ }
